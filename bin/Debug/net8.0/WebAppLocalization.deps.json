@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebAppLocalization/1.0.0": {
+        "runtime": {
+          "WebAppLocalization.dll": {}
+        },
+        "resources": {
+          "en-Us/WebAppLocalization.resources.dll": {
+            "locale": "en-Us"
+          },
+          "vi-VN/WebAppLocalization.resources.dll": {
+            "locale": "vi-VN"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebAppLocalization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
