@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAppLocalization")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b174b86df1a467d6f49c7003be76d15a138338e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAppLocalization")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAppLocalization")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
