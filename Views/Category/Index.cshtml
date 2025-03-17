@@ -1,0 +1,32 @@
+@using Models
+@model IEnumerable<Category>
+@inject IViewLocalizer localizer
+
+<a class="btn btn-primary" href="/dashboard/category/add">@localizer["Add"]</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@localizer["Id"]</th>
+            <th>@localizer["Name"]</th>
+            <th>@localizer["Description"]</th>
+            <th>@localizer["NameEn"]</th>
+            <th>@localizer["DescriptionEn"]</th>
+            <th>@localizer["Command"]</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model){
+            <tr>
+                <td>@item.CategoryId</td>
+                <td>@item.CategoryName</td>
+                <td>@item.Description</td>
+                <td>@item.CategoryNameEn</td>
+                <td>@item.DescriptionEn</td>
+                <td>
+                    <a href="/dashboard/category/edit/@item.CategoryId">@localizer["Edit"]</a>
+                    <a href="/dashboard/category/delete/@item.CategoryId">@localizer["Delete"]</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

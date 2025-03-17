@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8ITSkA9qlZA=",
+  "dgSpecHash": "LXqvqnmtMdA=",
   "success": true,
   "projectFilePath": "D:\\WebAppLocalization\\WebAppLocalization.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
+  ],
   "logs": []
 }
